@@ -7,13 +7,13 @@ student = {'Alex':89,
            'Bob':79,
            'Maya':88,
            'Jakob':90,
-           "Justin"#Its value is None
+           "Justin"#It goes into exception block because it has no value
            'Mark':75,
            'Lala':87}
 
 user_name = input("Enter the student name:")
 try:
-    #data = student["user_name"]
+   
     print(f"{user_name}'s mark is: {student[user_name]}")
 
 except :
@@ -30,3 +30,4 @@ rev_ff = first_five[::-1]
 print(f"Original list: {list}")
 print(f"Extracted first five elements: {first_five}")
 print(f"Reversed extracted elements: {rev_ff}")
+
