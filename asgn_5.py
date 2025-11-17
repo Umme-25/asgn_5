@@ -31,3 +31,4 @@ print(f"Original list: {list}")
 print(f"Extracted first five elements: {first_five}")
 print(f"Reversed extracted elements: {rev_ff}")
 
+
